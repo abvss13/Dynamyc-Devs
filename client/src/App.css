@@ -1,0 +1,125 @@
+/* Global Styles */
+
+:root {
+  --primary-color: #61dafb;
+  --dark-mode-bg: #222;
+
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  
+  --font-size-sm: 1rem; 
+  --font-size-md: 1.25rem;
+  --font-size-lg: 1.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-image: url(https://images.pexels.com/photos/4551832/pexels-photo-4551832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  transition: background-color 0.5s;
+}
+
+/* Reusable */
+
+.button {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  border: none; 
+  border-radius: var(--radius-sm);
+  background: var(--primary-color);
+  color: #fff;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #007acc;
+}
+
+.card {
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Layout */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+/* Header */
+
+.header {
+  background: #333;
+  color: #fff;
+  padding: var(--space-md);
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  padding: var(--space-lg);
+  text-align: center; 
+}
+
+.hero__title {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-md);
+}
+
+/* Dark Mode */
+
+.dark-mode-toggle {
+  position: fixed;
+  top: var(--space-md);
+  right: var(--space-md);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background: #ddd;
+}
+
+body.dark-mode {
+  background: var(--dark-mode-bg);
+  color: #fff;
+}
+
+body.dark-mode .card {
+  background: #333;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+
+  .container {
+    padding: var(--space-md);
+  }
+
+  .hero__title {
+    font-size: var(--font-size-md);
+  }
+  
+}

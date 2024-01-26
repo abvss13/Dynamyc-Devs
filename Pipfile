@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-migrate = "*"
+flask-bcrypt = "*"
+faker = "*"
+flask-restful = "*"
+gunicorn = "*"
+flask-sqlalchemy = "*"
+sqlalchemy-serializer = "*"
+sqlalchemy = "*"
+alembic = "*"
+flask-cors = "*"
+click = "*"
+blinker = "*"
+psycopg2-binary = "*"
+honcho = "*"
+bcrypt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

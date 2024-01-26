@@ -1,0 +1,53 @@
+# DynamicEats
+
+DynamicEats is a web application that serves as a platform for sharing and discovering a diverse array of recipes. Whether you're an experienced cooking enthusiast or a novice in the kitchen, DynamicEats has something special for you.
+
+## Getting Started
+
+To kickstart your journey with DynamicEats, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone git@github.com:Dynamic-Devs/Dynamic-Eats.git
+
+2. Navigate to the project directory:
+`cd Dynamic-Eats`
+
+3. `cd client then run npm run dev`
+
+## Features
+
+1. Recipe Listing: Browse through an extensive collection of recipes, each accompanied by detailed information about ingredients and preparation steps.
+
+2. Recipe Categories: Explore recipes organized into various categories, simplifying the process of finding your desired dish.
+
+3. Contact Us: Connect with us via email for any inquiries or feedback at dynamic.devs@gmail.com.
+
+4. About: Gain insights into Dynamic-Eats and its mission.
+
+## Usage
+1. Home: The landing page warmly welcomes users and provides an overview of the application.
+
+2. Recipe Listing: Click on a recipe from the list to view its details, including ingredients, preparation steps, and an image.
+
+3. Recipe Categories: Explore recipes grouped by categories, making it easy to discover new and exciting dishes.
+
+4. Contact Us: Utilize the provided email address to get in touch with the DynamicEats team.
+
+5. About: Learn more about the background and purpose of DynamicEats.
+
+### Contributing
+We wholeheartedly welcome contributions from the community. To contribute to DynamicEats, follow these steps:
+
+1. Fork the repository on GitHub.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your feature or bug fix.
+Implement your changes.
+4. Test your changes thoroughly.
+5. Commit your changes and push them to your forked repository.
+6. Create a pull request from your forked repository to the main repository.
+ 
+
+## License
+This project is licensed under the MIT License. Your contributions are appreciated!
